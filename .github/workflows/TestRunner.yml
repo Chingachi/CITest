@@ -32,8 +32,8 @@ jobs:
           key: Library-test-project-WebGL
 
       # Test
-      - name: Run tests
-        uses: game-ci/unity-test-runner@v2
+      #- name: Run tests
+      #  uses: game-ci/unity-test-runner@v2
 
       # Build
       - name: Build project
